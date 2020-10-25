@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FinAI</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="fin_ai_helps_you_calculate_house_prices_and_eligibility_for_lending_aided_by_intelligent_design">Fin - AI helps you calculate house prices and eligibility for lending aided by intelligent design.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+</resources>
