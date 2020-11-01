@@ -12,4 +12,5 @@
     <string name="fin_ai_helps_you_calculate_house_prices_and_eligibility_for_lending_aided_by_intelligent_design">Fin - AI helps you calculate house prices and eligibility for lending aided by intelligent design.</string>
     <string name="sign_in">Sign In</string>
     <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
 </resources>
