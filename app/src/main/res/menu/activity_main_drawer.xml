@@ -11,10 +11,26 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="@string/officer_info" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_loan_suitability"
+            android:icon="@drawable/ic_baseline_psychology_24"
+            android:title="@string/loan_suitability" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_baseline_payment_24"
+            android:title="@string/make_a_payment" />
+        <item
+            android:id="@+id/nav_phone_officer"
+            android:icon="@drawable/ic_baseline_local_phone_24"
+            android:title="@string/phone_officer" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings" />
     </group>
 </menu>
