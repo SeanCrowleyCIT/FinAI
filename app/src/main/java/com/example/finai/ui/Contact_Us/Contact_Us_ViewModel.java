@@ -1,14 +1,14 @@
-package com.example.finai.ui.home;
+package com.example.finai.ui.Contact_Us;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class Contact_Us_ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public Contact_Us_ViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Welcome to Fin-AI");
     }

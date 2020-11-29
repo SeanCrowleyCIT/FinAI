@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FinAI</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_name">Name</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
@@ -10,8 +11,8 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="fin_ai_helps_you_calculate_house_prices_and_eligibility_for_lending_aided_by_intelligent_design">Fin - AI helps you calculate house prices and eligibility for lending aided by intelligent design.</string>
-    <string name="sign_in">Sign In</string>
-    <string name="register">Register</string>
+    <string name="sign_inLogin">Sign In</string>
+    <string name="registerLogin">Register</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_main_nav">MainNav</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -30,4 +31,10 @@
     <string name="contact_us">Contact Us</string>
     <string name="phone_officer">Phone Officer</string>
     <string name="make_a_payment">Make a Payment</string>
+    <string name="Home_Message">Welcome to Fin-AI</string>
+    <string name="registerReg">Register</string>
+    <string name="sign_inReg">Sign In</string>
+    <string name="sign_inMain">Sign In</string>
+    <string name="registerMain">Register</string>
+
 </resources>

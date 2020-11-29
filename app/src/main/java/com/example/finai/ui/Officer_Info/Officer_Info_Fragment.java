@@ -1,4 +1,4 @@
-package com.example.finai.ui.home;
+package com.example.finai.ui.Officer_Info;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,8 +13,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.finai.R;
+import com.example.finai.ui.home.HomeViewModel;
 
-public class HomeFragment extends Fragment {
+public class Officer_Info_Fragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 

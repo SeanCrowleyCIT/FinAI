@@ -1,14 +1,14 @@
-package com.example.finai.ui.home;
+package com.example.finai.ui.Loan_Suitability;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class Loan_Suitability_ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public Loan_Suitability_ViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Welcome to Fin-AI");
     }

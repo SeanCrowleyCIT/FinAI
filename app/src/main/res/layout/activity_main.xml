@@ -33,7 +33,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:onClick="@string/action_sign_in"
-        android:text="@string/sign_in"
+        android:text="@string/sign_inMain"
         app:layout_constraintEnd_toStartOf="@+id/register"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -48,7 +48,7 @@
         android:layout_marginEnd="105dp"
         android:layout_marginRight="105dp"
         android:onClick="register"
-        android:text="@string/register"
+        android:text="@string/registerMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/signIn"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />

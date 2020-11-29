@@ -1,14 +1,14 @@
-package com.example.finai.ui.home;
+package com.example.finai.ui.Make_a_Payment;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class Make_a_Payment_ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public Make_a_Payment_ViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Welcome to Fin-AI");
     }
