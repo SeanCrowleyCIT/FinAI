@@ -1,19 +1,19 @@
-package com.example.finai.ui.Officer_Info;
+package com.example.finai.ui.Phone_Officer;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class Officer_Info_ViewModel extends ViewModel {
+public class Phone_Officer_ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public Officer_Info_ViewModel() {
+    public Phone_Officer_ViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Welcome to Fin-AI");
     }
 
-    public LiveData<String> getText()  {
+    public LiveData<String> getText() {
         return mText;
     }
 }

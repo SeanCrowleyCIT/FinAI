@@ -6,6 +6,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -27,6 +28,9 @@ import com.example.finai.MainNav;
 import com.example.finai.R;
 import com.example.finai.ui.login.LoginViewModel;
 import com.example.finai.ui.login.LoginViewModelFactory;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -122,6 +126,33 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
+        //curl
+        AsyncTask.execute(new Runnable() {
+            @Override
+            public void run() {
+                // All your networking logic
+                // should be here
+                String command = "curl GET https://Cormander.pythonanywhere.com/newUser -d 'usernameEditText ='\" + testing@hotmail.com + \" -d\n" + "'passwordEditText='\" +apitest +\" -X POST";
+                ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+
+                try {
+                    Process p = new ProcessBuilder(command).start();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                Process process = null;
+                try {
+                    process = processBuilder.start();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                InputStream inputStream = process.getInputStream();
+            }
+        });
+
+        //
+
         String welcome = getString(R.string.welcome) + model.getDisplayName();
 
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();

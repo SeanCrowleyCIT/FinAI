@@ -6,6 +6,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -14,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -27,6 +29,11 @@ import com.example.finai.MainNav;
 import com.example.finai.R;
 import com.example.finai.ui.login.LoginViewModel;
 import com.example.finai.ui.login.LoginViewModelFactory;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.ProcessBuilder;
+import java.lang.Process;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -43,6 +50,11 @@ public class LoginActivity extends AppCompatActivity {
         final EditText passwordEditText = findViewById(R.id.password);
         final Button loginButton = findViewById(R.id.login);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);
+
+        String output = String.valueOf(usernameEditText.getText());
+        //System.out.println(usernameEditText);
+        Log.println(Log.DEBUG, "tag", output);
+
 
         loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
             @Override
@@ -122,6 +134,44 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
+        //curl
+        AsyncTask.execute(new Runnable() {
+            @Override
+            public void run() {
+                // All your networking logic
+                // should be here
+                //String curl = "curl https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET";
+                //Log.d(curl);
+
+
+                //String command = "curl GET https://Cormander.pythonanywhere.com/newUser -d 'usernameEditText.getText() ='\" + testing@hotmail.com + \" -d\n" + "'passwordEditText='\" +apitest +\" -X GET";
+                String command = "curl https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET";
+                ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+
+                try {
+                    Process p = new ProcessBuilder(command).start();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                Process process = null;
+                try {
+                    process = processBuilder.start();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                assert process != null;
+                InputStream inputStream = process.getInputStream();
+                Log.i("Curl Test", String.valueOf(inputStream));
+
+                //testing
+                String curlTest = "curl https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET";
+                Log.i("This is the curlTest", curlTest);
+            }
+        });
+
+        //
+
         String welcome = getString(R.string.welcome) + model.getDisplayName();
 
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();

@@ -13,22 +13,22 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.finai.R;
-import com.example.finai.ui.home.HomeViewModel;
+import com.example.finai.ui.Make_a_Payment.Make_a_Payment_Fragment;
 
 public class Make_a_Payment_Fragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private Make_a_Payment_ViewModel Make_a_Payment_ViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.Home_Message);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        Make_a_Payment_ViewModel =
+                new ViewModelProvider(this).get(Make_a_Payment_ViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_make_a_payment, container, false);
+        //final TextView textView = root.findViewById(R.id.Home_Message);
+        Make_a_Payment_ViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+                //textView.setText(s);
             }
         });
         return root;

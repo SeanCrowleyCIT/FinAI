@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"></activity>
+        <activity
             android:name=".ui.login.RegisterActivity"
             android:label="FinAI" />
         <activity
@@ -22,8 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
+        <activity
+            android:name=".KnowledgeBase"
+            android:label="FinAI Knowledge Base" />
         <activity
             android:name=".MainNav"
             android:label="@string/title_activity_main_nav"
@@ -35,6 +39,9 @@
             </intent-filter>
         </activity>
 
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

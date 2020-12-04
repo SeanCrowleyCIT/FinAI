@@ -13,22 +13,19 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.finai.R;
-import com.example.finai.ui.home.HomeViewModel;
+import com.example.finai.ui.Officer_Info.Officer_Info_ViewModel;
 
 public class Officer_Info_Fragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.Home_Message);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        Officer_Info_ViewModel officerInfoModel = new ViewModelProvider(this).get(Officer_Info_ViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_officer_info, container, false);
+        //final TextView textView = root.findViewById(R.id.Home_Message);
+        officerInfoModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+                //textView.setText(s);
             }
         });
         return root;

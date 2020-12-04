@@ -12,14 +12,45 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.finai.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_officer_info"
+        android:name="com.example.finai.ui.Officer_Info.Officer_Info_Fragment"
+        android:label="@string/officer_info"
+        tools:layout="@layout/fragment_officer_info" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.finai.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_loan_suitability"
+        android:name="com.example.finai.ui.Loan_Suitability.Loan_Suitability_Fragment"
+        android:label="Loan Suitability"
+        tools:layout="@layout/fragment_loan_suitability" />
+
+    <fragment
+        android:id="@+id/nav_house_quotation"
+        android:name="com.example.finai.ui.House_Quotation.House_Quotation_Fragment"
+        android:label="@string/house_quotation_calculator"
+        tools:layout="@layout/fragment_house_quotation" />
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.finai.ui.Make_a_Payment.Make_a_Payment_Fragment"
+        android:label="@string/make_a_payment"
+        tools:layout="@layout/fragment_make_a_payment" />
+
+    <fragment
+        android:id="@+id/nav_phone_officer"
+        android:name="com.example.finai.ui.Phone_Officer.Phone_Officer_Fragment"
+        android:label="@string/phone_officer"
+        tools:layout="@layout/fragment_phone_officer" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.finai.ui.Contact_Us.Contact_Us_Fragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.finai.ui.Contact_Us.Contact_Us_Fragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
 </navigation>
