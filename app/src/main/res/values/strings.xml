@@ -53,5 +53,11 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="house_quotation_calculator">House Quotation Calculator</string>
+    <string name="applicantincome">ApplicantIncome</string>
+    <string name="coapplicantincome">Coapplicantincome</string>
+    <string name="LoanSuitabilityBody">Complete the form here and our AI can tell you in just a few moments if are eligible.</string>
+    <string name="loan_amount_hint">Loan Amount</string>
+    <string name="LoanAmountTermHint">Loan Amount Term</string>
+    <string name="submit">SUBMIT</string>
 
 </resources>
