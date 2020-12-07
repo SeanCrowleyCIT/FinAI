@@ -59,5 +59,30 @@
     <string name="loan_amount_hint">Loan Amount</string>
     <string name="LoanAmountTermHint">Loan Amount Term</string>
     <string name="submit">SUBMIT</string>
+    <string name="maleForm">Male</string>
+    <string name="femaleForm">Female</string>
+    <string name="dependentsForm">Dependents</string>
+    <string name="loansuitabilityForm">LoanSuitability</string>
+    <string name="graduateForm">Graduate</string>
+    <string name="non_graduateForm">Non Graduate</string>
+    <string name="self_employedForm">Self Employed</string>
+    <string name="not_self_employedForm">Not Self Employed</string>
+    <string name="credit_historyForm">Credit History</string>
+    <string name="no_credit_historyForm">No Credit History</string>
+    <string name="urbanFormButton">Urban</string>
+    <string name="ruralformButton">Rural</string>
+    <string name="semi_urbanFormButton">Semi-Urban</string>
+    <string name="house_quotation_calculatorHeader">House Quotation Calculator</string>
+    <string name="bedroomsForm">Bedrooms</string>
+    <string name="square_footage_of_living_spaceForm">Square Footage of Living Space</string>
+    <string name="square_footage_of_the_lotForm">Square Footage of the lot.</string>
+    <string name="number_of_floorsFormHint">Number of floors, e.g 1, 1.5, 2</string>
+    <string name="viewsFormHint">Views, e.g 0, 1, 2, 3, 4</string>
+    <string name="sqftAboveFormHint">Square Foot Above Ground</string>
+    <string name="sqftBasement">Square Footage of Basement</string>
+    <string name="yearBuiltFormHint">What year was the house built</string>
+    <string name="yearRenovatedFormHint">What year was the house renovated, if never type 0</string>
+    <string name="sqftAbovePastForm">Square Foot Above Ground Past</string>
+    <string name="sqftBelowPastForm">Square Foot Lot Ground Past</string>
 
 </resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.131">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/HouseQuotationHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="159dp"
+                    android:layout_marginLeft="159dp"
+                    android:layout_marginEnd="159dp"
+                    android:layout_marginRight="159dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/house_quotation_calculatorHeader" />
+
+                <TextView
+                    android:id="@+id/HouseQuotationBody"
+                    android:layout_width="411dp"
+                    android:layout_height="226dp"
+                    android:layout_marginStart="176dp"
+                    android:layout_marginLeft="176dp"
+                    android:layout_marginEnd="176dp"
+                    android:layout_marginRight="176dp"
+                    android:text="@string/LoanSuitabilityBody" />
+
+                <EditText
+                    android:id="@+id/bedrooms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="wrap_content"
+                    android:autofillHints="Number of bedrooms"
+                    android:hint="@string/bedroomsForm"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/bathrooms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/dependentsForm"
+                    android:hint="@string/dependentsForm"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/SqftLotPastForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="@string/sqftBelowPastForm"
+                    android:hint="@string/sqftBelowPastForm"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/GradeForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="Grade"
+                    android:hint="Grade"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/LatitudeForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="Latitude"
+                    android:hint="Latitude"
+                    android:inputType="numberDecimal"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/numberofFloorsForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="@string/number_of_floorsFormHint"
+                    android:hint="@string/number_of_floorsFormHint"
+                    android:inputType="numberDecimal"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/SqftAbovePastForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="@string/sqftAbovePastForm"
+                    android:hint="@string/sqftAbovePastForm"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/yearRenovatedForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="@string/yearRenovatedFormHint"
+                    android:hint="@string/yearRenovatedFormHint"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/yearBuiltForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="@string/yearBuiltFormHint"
+                    android:hint="@string/yearBuiltFormHint"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/sqftLivingForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:autofillHints="@string/square_footage_of_living_spaceForm"
+                    android:hint="@string/square_footage_of_living_spaceForm"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+        -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="352dp"
+        android:layout_marginRight="352dp"
+        android:layout_marginBottom="712dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
