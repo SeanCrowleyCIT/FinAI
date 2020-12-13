@@ -21,8 +21,7 @@ public class Make_a_Payment_Fragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        Make_a_Payment_ViewModel =
-                new ViewModelProvider(this).get(Make_a_Payment_ViewModel.class);
+        Make_a_Payment_ViewModel = new ViewModelProvider(this).get(Make_a_Payment_ViewModel.class);
         View root = inflater.inflate(R.layout.fragment_make_a_payment, container, false);
         //final TextView textView = root.findViewById(R.id.Home_Message);
         Make_a_Payment_ViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {

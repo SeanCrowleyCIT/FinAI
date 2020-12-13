@@ -1,4 +1,4 @@
-package com.example.finai.ui.gallery;
+package com.example.finai.ui.Support;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,14 +14,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.finai.R;
 
-public class GalleryFragment extends Fragment {
+public class SupportFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private SupportViewModel galleryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+                new ViewModelProvider(this).get(SupportViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         final TextView textView = root.findViewById(R.id.text_gallery);
         galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {

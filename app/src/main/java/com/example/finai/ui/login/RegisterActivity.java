@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -32,9 +33,13 @@ import com.example.finai.ui.login.LoginViewModelFactory;
 import java.io.IOException;
 import java.io.InputStream;
 
+import ProcessBuilder.AppProcessBuilder;
+
 public class RegisterActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -132,11 +137,15 @@ public class RegisterActivity extends AppCompatActivity {
             public void run() {
                 // All your networking logic
                 // should be here
-                String command = "curl GET https://Cormander.pythonanywhere.com/newUser -d 'usernameEditText ='\" + testing@hotmail.com + \" -d\n" + "'passwordEditText='\" +apitest +\" -X POST";
-                ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+
+                //http curl, reader
+                String test = AppProcessBuilder.getRequest("https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET");
+                //curl
+                //String command = "curl GET https://Cormander.pythonanywhere.com/newUser -d 'usernameEditText ='\" + testing@hotmail.com + \" -d\n" + "'passwordEditText='\" +apitest +\" -X POST";
+                ProcessBuilder processBuilder = new ProcessBuilder(test.split(" "));
 
                 try {
-                    Process p = new ProcessBuilder(command).start();
+                    Process p = new ProcessBuilder(test).start();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -148,6 +157,8 @@ public class RegisterActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 InputStream inputStream = process.getInputStream();
+                //Log.i("Arsenal", test);
+                //Log.i("Arsenal2004", String.valueOf(inputStream));
             }
         });
 

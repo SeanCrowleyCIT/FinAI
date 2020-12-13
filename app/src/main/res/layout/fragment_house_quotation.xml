@@ -87,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submit"
         android:layout_width="66dp"
         android:layout_height="34dp"
         android:layout_marginStart="161dp"
@@ -99,6 +99,7 @@
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
@@ -196,7 +197,6 @@
 
     <EditText
         android:id="@+id/SqftLotPastForm"
-        android:textSize="10sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -205,9 +205,10 @@
         android:hint="@string/sqftBelowPastForm"
         android:inputType="number"
         android:selectAllOnFocus="true"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText

@@ -1,14 +1,14 @@
-package com.example.finai.ui.gallery;
+package com.example.finai.ui.Support;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class SupportViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public SupportViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is gallery fragment");
     }

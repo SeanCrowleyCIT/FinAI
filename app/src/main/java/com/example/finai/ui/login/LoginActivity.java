@@ -145,8 +145,10 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 //String command = "curl GET https://Cormander.pythonanywhere.com/newUser -d 'usernameEditText.getText() ='\" + testing@hotmail.com + \" -d\n" + "'passwordEditText='\" +apitest +\" -X GET";
-                String command = "curl https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET";
+                String command = "curl https://Cormander.pythonanywhere.com/newUser -d 'usernameEditText.getText()' -d 'passwordEditText.getText()' -X GET";
                 ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+
+
 
                 try {
                     Process p = new ProcessBuilder(command).start();
@@ -165,8 +167,8 @@ public class LoginActivity extends AppCompatActivity {
                 Log.i("Curl Test", String.valueOf(inputStream));
 
                 //testing
-                String curlTest = "curl https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET";
-                Log.i("This is the curlTest", curlTest);
+                //String curlTest = "curl https://Cormander.pythonanywhere.com/newUser -d 'username=testing@hotmail.com' -d 'password=apitest' -X GET";
+                //Log.i("This is the curlTest", curlTest);
             }
         });
 

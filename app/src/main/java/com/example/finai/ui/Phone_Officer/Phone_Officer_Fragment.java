@@ -1,5 +1,7 @@
 package com.example.finai.ui.Phone_Officer;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,6 +27,11 @@ public class Phone_Officer_Fragment extends Fragment {
         Phone_Officer_ViewModel =
                 new ViewModelProvider(this).get(Phone_Officer_ViewModel.class);
         View root = inflater.inflate(R.layout.fragment_phone_officer, container, false);
+
+        Uri number = Uri.parse("tel:5551234");
+        Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
+        startActivity(callIntent);
+
         //final TextView textView = root.findViewById(R.id.Home_Message);
         Phone_Officer_ViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

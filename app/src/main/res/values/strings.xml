@@ -85,4 +85,12 @@
     <string name="sqftAbovePastForm">Square Foot Above Ground Past</string>
     <string name="sqftBelowPastForm">Square Foot Lot Ground Past</string>
 
+    <string name="loanSuitabilitydialogue_messageYes">Successful</string>
+    <string name="loanSuitabilitydialogue_messageNo">Unsuccessful</string>
+    <string name="loanSuitabilitydialogue_title">Loan Suitability Result</string>
+    <string name="houseQuotatationdialogue_title">House Quotation Result</string>
+    <string name="contact_detailsHeader">Contact Details</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="make_a_support_request">Make a Support Request</string>
+
 </resources>
