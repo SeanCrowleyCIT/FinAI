@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>FinAIBot</title>
+  <!-- Specifies the character encoding for the HTML document -->
+  <meta charset="UTF-8">
+  <!-- The viewport meta tag tells the browser that the width of the screen should be considered the "Full Width" of the page 
+  meaning no matter the width of the device you are on, whether on desktop or mobile the website will follow the width of the device the user is on
+  Initial-scale=1.0 sets the initial zoom level of the webpage when it's loaded. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <!-- The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source
+  JavaScript libraries. The following loads jQuery. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+		<div class="msg-header-img" style="background-image: url('../static/images/image1.jpg');"></div>
+	  </div>
+    </header>
+
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url('../static/images/robot2.png');"></div>
+
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">FinAIBot</div>
+            
+          </div>
+
+          <div class="msg-text">Welcome!</div>
+        </div>
+      </div>
+    </main>
+
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="Please enter your question...">
+      <button type="submit" class="msger-send-btn">Send</button>
+    </form>
+  </section>
+   
+  <script>
+    <!-- Declare constants for the input area and input -->
+    const msgerForm = get(".msger-inputarea");
+    const msgerInput = get(".msger-input");
+    const msgerChat = get(".msger-chat");
+
+	<!-- Declare constants for the images and names -->
+    const BOT_IMG = "../static/images/robot2.png";
+    const PERSON_IMG = "../static/images/woman.png";
+    const BOT_NAME = "FinAIBot";
+    const PERSON_NAME = "You";
+
+	<!-- The addEventListener() method attaches an event handler to the specified element -->
+    msgerForm.addEventListener("submit", event => {
+	  <!-- The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur. -->
+      event.preventDefault();
+      <!-- Declares the constant msgText as the inputted value -->
+      const msgText = msgerInput.value;
+      if (!msgText) return;
+      <!-- Function call to appendMessage to display text entered by user -->
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.value = "";
+	  <!-- Call to function botResponse to obtain response to user's message -->
+      botResponse(msgText);
+    });
+
+	<!-- Function to display message of bot or person -->
+    function appendMessage(name, img, side, text) {
+    const msgHTML = `
+	<div class="msg ${side}-msg">
+	  <div class="msg-img" style="background-image: url(${img})"></div>
+	  <div class="msg-bubble">
+		<div class="msg-info">
+		  <div class="msg-info-name">${name}</div>
+		  <div class="msg-info-time">${formatDate(new Date())}</div>
+		</div>
+		<div class="msg-text">${text}</div>
+	  </div>
+	</div>
+	`;
+
+	<!-- The insertAdjacentHTML() method inserts a text as HTML, into a specified position. -->
+    <!-- 'beforeend' positions the text msgHTML just inside the element, after its last child. -->
+	  msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+	<!-- The scrollTop property sets or returns the number of pixels an element's content is scrolled vertically.  -->
+      msgerChat.scrollTop += 500;
+    }
+
+	<!-- Function to obtain and show on screen the bot's response to user input -->
+    function botResponse(rawText) {
+	  <!-- The $.get() method loads data from the server using a HTTP GET request. -->
+      $.get("/get", { msg: rawText }).done(function (data) {
+	    <!-- The console.log() method writes a message to the console. -->
+        console.log(rawText);
+        console.log(data);
+        const msgText = data;
+		<!-- Call to function appendMessage to display bot's message -->
+        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+      });
+    }
+
+	<!-- Function that loads a selector -->
+    function get(selector, root = document) {
+	  <!-- The querySelector() method returns the first element that matches a specified CSS selector(s) in the document (root). -->
+      return root.querySelector(selector);
+    }	
+	
+	<!-- Function that formats the time -->
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+
+  </script>
+</body>
+</html>
