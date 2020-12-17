@@ -1,0 +1,326 @@
+How do I talk to a person    
+Please wait. A customer service agent will be in contact with you shortly
+I want to talk to a human
+Please wait. A customer service agent will be in contact with you shortly
+how do I call you
+Please wait. A customer service agent will be in contact with you shortly
+I need to speak to a real person
+Please wait. A customer service agent will be in contact with you shortly
+Can you call me
+Please wait. A customer service agent will be in contact with you shortly
+Can I talk to a human
+Please wait. A customer service agent will be in contact with you shortly
+Representative
+Please wait. A customer service agent will be in contact with you shortly
+Speak to a representative
+Please wait. A customer service agent will be in contact with you shortly
+Speak to a customer service agent
+Please wait. A customer service agent will be in contact with you shortly
+I need to speak to customer service
+Please wait. A customer service agent will be in contact with you shortly
+Can I talk to a representative	   
+Please wait. A customer service agent will be in contact with you shortly
+hi
+Hello, how can I help?
+Hi there
+Hello, how can I help?
+Is anyone there?
+Hello, how can I help?
+Hey
+Hello, how can I help?
+Hello
+Hello, how can I help?
+Good day
+Hello, how can I help?
+How are you
+Very well, thanks for asking
+How is it going
+Very well, thanks for asking
+how are things
+Very well, thanks for asking
+Bye
+Bye! Have a nice day
+See you later
+Bye! Have a nice day
+Goodbye
+Bye! Have a nice day
+Nice chatting to you, bye
+Bye! Have a nice day
+Till next time
+Bye! Have a nice day
+What is fin-ai
+Fin-AI offers financial services including the calculation of house prices on behalf of customers and assessment of their eligibility for loans
+Who are fin-ai
+Fin-AI offers financial services including the calculation of house prices on behalf of customers and assessment of their eligibility for loans
+What does your business do
+Fin-AI offers financial services including the calculation of house prices on behalf of customers and assessment of their eligibility for loans
+who are you
+Fin-AI offers financial services including the calculation of house prices on behalf of customers and assessment of their eligibility for loans
+Thanks
+My pleasure! Happy to help!
+Thank you
+My pleasure! Happy to help!
+That's helpful
+My pleasure! Happy to help!
+Awesome, thanks
+My pleasure! Happy to help!
+Thanks for helping me
+My pleasure! Happy to help!
+When are you open
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+What are your hours
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+opening hours
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+What time does the office close
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+What are your office hours
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+What are the office hours in your location
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+What time are you open till
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+When do you close
+Fin-AI offices are open Monday to Friday from 9am to 6pm. We are closed Saturday and Sunday
+Where do you have offices?
+Our main office is in Cork. We also have offices in Dublin and Galway
+where are you?
+Our main office is in Cork. We also have offices in Dublin and Galway
+What locations do you have?
+Our main office is in Cork. We also have offices in Dublin and Galway
+Are there offices in
+Our main office is in Cork. We also have offices in Dublin and Galway
+do you have any offices near
+Our main office is in Cork. We also have offices in Dublin and Galway
+are there any offices near
+Our main office is in Cork. We also have offices in Dublin and Galway
+do you have an office by
+Our main office is in Cork. We also have offices in Dublin and Galway
+Where are you located
+Our main office is in Cork. We also have offices in Dublin and Galway
+Where are your offices
+Our main office is in Cork. We also have offices in Dublin and Galway
+What are other locations
+Our main office is in Cork. We also have offices in Dublin and Galway
+What street are you on
+Our main office is in Cork. We also have offices in Dublin and Galway
+What other offices are you by
+Our main office is in Cork. We also have offices in Dublin and Galway
+where are you
+Our main office is in Cork. We also have offices in Dublin and Galway
+How you could help me?
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+What you can do?
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+What help you provide?
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+How you can be helpful?
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+What support is offered
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+help me
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+what are my options
+I can help you with registration, login, the loan eligibility calculator and the house price quotation calculator. What kind of problem are you having?
+My client would like to apply for a loan
+Please use the loan eligibility calculator to assess your client's eligibility for a loan
+how can I apply for a loan
+Please use the loan eligibility calculator to assess your client's eligibility for a loan
+is my client eligible for a loan
+Please use the loan eligibility calculator to assess your client's eligibility for a loan
+I would like to determine the price my client should pay for a house
+Please use the house price calculator to determine the recommended price for the house your client is interested in
+What price do you recommend for a house
+Please use the house price calculator to determine the recommended price for the house your client is interested in
+what should my client pay for this house
+Please use the house price calculator to determine the recommended price for the house your client is interested in
+I can't login
+Please make sure you have entered a valid email address. If you have forgotten your password click on 'Forgotten Password?'. If you do not already have an account you need to register
+login is not working
+Please make sure you have entered a valid email address. If you have forgotten your password click on 'Forgotten Password?'. If you do not already have an account you need to register
+I can't sign in
+Please make sure you have entered a valid email address. If you have forgotten your password click on 'Forgotten Password?'. If you do not already have an account you need to register
+I am having problems logging in
+Please make sure you have entered a valid email address. If you have forgotten your password click on 'Forgotten Password?'. If you do not already have an account you need to register
+I can't register
+Please make sure you have entered a valid email address. Your password must be at least eight characters long. Please ensure you have entered the same password in the 'Confirm password' text box
+register is not working
+Please make sure you have entered a valid email address. Your password must be at least eight characters long. Please ensure you have entered the same password in the 'Confirm password' text box
+I can't register
+Please make sure you have entered a valid email address. Your password must be at least eight characters long. Please ensure you have entered the same password in the 'Confirm password' text box
+I am having problems registering
+Please make sure you have entered a valid email address. Your password must be at least eight characters long. Please ensure you have entered the same password in the 'Confirm password' text box
+how do I register
+Please make sure you have entered a valid email address. Your password must be at least eight characters long. Please ensure you have entered the same password in the 'Confirm password' text box
+registration is not working
+Please make sure you have entered a valid email address. Your password must be at least eight characters long. Please ensure you have entered the same password in the 'Confirm password' text box
+the calculator will not give me a recommended price
+Please make sure you have entered a value in all of the fields then clicked on the 'calculate' button to obtain a recommendation
+the house price calculator will not give me an estimate
+Please make sure you have entered a value in all of the fields then clicked on the 'calculate' button to obtain a recommendation
+the house calculator will not give me a quotation
+Please make sure you have entered a value in all of the fields then clicked on the 'calculate' button to obtain a recommendation
+what is the asking price
+The asking price is the amount for which the house is being sold
+what should I put in for the asking price
+The asking price is the amount for which the house is being sold
+what is the bedrooms field looking for
+Please enter the number of bedrooms in the house
+what should I put in for the bedrooms
+Please enter the number of bedrooms in the house
+what should I enter for bedrooms
+Please enter the number of bedrooms in the house
+what should I put in for the number of bathrooms
+Enter the number of bathrooms in the house where 0.5 accounts for a room with a toilet but no shower
+how should I fill in number of bathrooms
+Enter the number of bathrooms in the house where 0.5 accounts for a room with a toilet but no shower
+what is the number of bathrooms
+Enter the number of bathrooms in the house where 0.5 accounts for a room with a toilet but no shower
+what is the sq ft living space
+Please enter the square footage of the dwelling's interior living space
+what should I put in for the sq ft living space
+Please enter the square footage of the dwelling's interior living space
+what should I enter for square foot living space
+Please enter the square footage of the dwelling's interior living space
+what is the sq ft lot
+Please enter the square footage of the land space
+what should I put in for the sq ft land space
+Please enter the square footage of the land space
+what should I enter for square foot land space
+Please enter the square footage of the land space
+what is the number of floors
+Please enter the number of floors in the house
+what should I put in for the number of floors
+Please enter the number of floors in the house
+what is the waterfront property
+Select 'Yes' if the dwelling is overlooking the waterfront otherwise 'No'
+what should I put in for waterfront property
+Select 'Yes' if the dwelling is overlooking the waterfront otherwise 'No'
+what is the view
+Please select from the dropdown menu a rating of the view ranging from 0 to 4
+what should I put in for the view
+Please select from the dropdown menu a rating of the view ranging from 0 to 4
+what should I enter for view
+Please select from the dropdown menu a rating of the view ranging from 0 to 4
+what is the condition looking for
+'Condition' refers to the condition of the dwelling being sold. Please select from the dropdown menu a rating from 1 to 5
+what should I put in for the condition
+'Condition' refers to the condition of the dwelling being sold. Please select from the dropdown menu a rating from 1 to 5
+what is the grade
+Please select from the dropdown menu a value from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design
+what should I put in for the grade
+Please select from the dropdown menu a value from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design
+what does grade mean
+Please select from the dropdown menu a value from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design
+what is the sq ft above
+Please enter the square footage of the interior housing space that is above ground level
+what should I put in for the square foot above
+Please enter the square footage of the interior housing space that is above ground level
+what should I enter for sqft above
+Please enter the square footage of the interior housing space that is above ground level
+what is the sq ft basement
+Please enter the square footage of the interior housing space that is below ground level
+what should I put in for the square foot basement
+Please enter the square footage of the interior housing space that is below ground level
+what should I enter for sqft basement
+Please enter the square footage of the interior housing space that is below ground level
+what is the year built
+Please enter the year the house was initially built
+what should I put in for the year built
+Please enter the year the house was initially built
+what should I enter for year built
+Please enter the year the house was initially built
+what does year renovated mean
+Please enter the year of the house's last renovation
+what should I put in for the year renovated
+Please enter the year of the house's last renovation
+what should I enter for year renovated
+Please enter the year of the house's last renovation
+what is the zipcode
+Please enter the zipcode in which the house is located
+what should I put in for the zipcode
+Please enter the zipcode in which the house is located
+what should I enter for zipcode
+Please enter the zipcode in which the house is located
+what is the latitude
+Please enter the latitude at which the house is located. Latitude is a measurement on a globe or map of location north or south of the Equator.
+what should I put in for the latitude of the house
+Please enter the latitude at which the house is located. Latitude is a measurement on a globe or map of location north or south of the Equator.
+what should I enter for latitude
+Please enter the latitude at which the house is located. Latitude is a measurement on a globe or map of location north or south of the Equator.
+what is the longitude
+Please enter the longitude at which the house is located. Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.
+what should I put in for the longitude of the house
+Please enter the longitude at which the house is located. Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.
+what should I enter for longitude
+Please enter the longitude at which the house is located. Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.
+the calculator will not give me a recommendation for loan eligibility
+Please make sure you have entered a value in all of the fields and clicked on the 'calculate' button
+the loan eligibility calculator will not give me recommendation
+Please make sure you have entered a value in all of the fields and clicked on the 'calculate' button
+the loan calculator will not give me a recommendation
+Please make sure you have entered a value in all of the fields and clicked on the 'calculate' button
+what is marital status
+If your client is married please select the option 'Married'. If your client is single, separated or divorced please select 'Not Married'
+what should I select for marital status
+If your client is married please select the option 'Married'. If your client is single, separated or divorced please select 'Not Married'
+should I select married or not married
+If your client is married please select the option 'Married'. If your client is single, separated or divorced please select 'Not Married'
+my client is divorced
+If your client is married please select the option 'Married'. If your client is single, separated or divorced please select 'Not Married'
+my client is separated
+If your client is married please select the option 'Married'. If your client is single, separated or divorced please select 'Not Married'
+what should I choose for gender
+In future we hope to provide options for transgender and nonbinary gender identities but for the moment please select your client's sex as declared on their birth certificate
+should I choose male or female
+In future we hope to provide options for transgender and nonbinary gender identities but for the moment please select your client's sex as declared on their birth certificate
+my clientis neither male nor female
+In future we hope to provide options for transgender and nonbinary gender identities but for the moment please select your client's sex as declared on their birth certificate
+my client is non-binary
+In future we hope to provide options for transgender and nonbinary gender identities but for the moment please select your client's sex as declared on their birth certificate
+my client is transgender
+In future we hope to provide options for transgender and nonbinary gender identities but for the moment please select your client's sex as declared on their birth certificate
+what does graduate mean
+If your client has graduated from a third-level university or college select the option 'Graduate', otherwise select 'Not Graduated'
+what should I select for graduate
+If your client has graduated from a third-level university or college select the option 'Graduate', otherwise select 'Not Graduated'
+my client graduated from high school so which option should I select
+If your client has graduated from a third-level university or college select the option 'Graduate', otherwise select 'Not Graduated'
+what should I select for education
+If your client has graduated from a third-level university or college select the option 'Graduate', otherwise select 'Not Graduated'
+what does dependents mean
+A dependent is a person who is supported financially by the borrower. This may include their children and their spouse.
+what should I put in for the number of dependents
+A dependent is a person who is supported financially by the borrower. This may include their children and their spouse.
+is my client's wife a dependent
+A dependent is a person who is supported financially by the borrower. This may include their children and their spouse.
+is my client's girlfriend a dependent
+A dependent is a person who is supported financially by the borrower. This may include their children and their spouse.
+what should I select for employment
+If your client has been working for themselves for the previous year select 'Yes'
+is my client self employed
+If your client has been working for themselves for the previous year select 'Yes'
+what if my client works for themselves
+If your client has been working for themselves for the previous year select 'Yes'
+what is income
+Please enter your client's income for the previous tax year
+what should I put in for applicant income
+Please enter your client's income for the previous tax year
+what should I enter for coapplicant income
+Please enter your client's coapplicant's income for the previous tax year
+what is the loan amount
+Please enter the amount of money your client wants to borrow
+what is the term
+Please enter the length of time over which your client would like to repay the loan
+what should I put in for the term
+Please enter the length of time over which your client would like to repay the loan
+what should I enter for the term
+Please enter the length of time over which your client would like to repay the loan
+what is the property area
+Please select from the three options where the property is located. Is the dwelling in a urban, semiurban or rural area?
+what should I select for the property area
+Please select from the three options where the property is located. Is the dwelling in a urban, semiurban or rural area?
+what should I choose for the property area
+Please select from the three options where the property is located. Is the dwelling in a urban, semiurban or rural area?
+
+
